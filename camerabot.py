@@ -3,7 +3,6 @@ import datetime
 import time
 import csv
 import telepot
-from unidecode import unidecode
 from subprocess import check_output
 import requests
 

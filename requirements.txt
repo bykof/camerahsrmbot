@@ -1,0 +1,2 @@
+telepot==10.1
+requests==2.12.0
