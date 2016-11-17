@@ -38,7 +38,7 @@ def options(bot, update):
     reply_keyboard = [MENU_MAPPER.keys()]
 
     update.message.reply_text(
-        'Ay Gude wie! Wähle einen der Optionen!',
+        'Ay Gude wie! Wähle eine Option!',
         reply_markup=ReplyKeyboardMarkup(
             reply_keyboard, one_time_keyboard=True
         )
