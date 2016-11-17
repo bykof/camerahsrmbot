@@ -1,2 +1,2 @@
-telepot==10.1
+python-telegram-bot==5.2.0
 requests==2.12.0
