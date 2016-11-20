@@ -160,7 +160,7 @@ class Menu(object):
         return_string = u'Das Menü für morgen ist:\n'
         return_string += '---------------\n'
         day_of_week = self.DAY_OF_WEEK_MAPPING[
-            datetime.datetime.today().weekday() + 1
+            (datetime.datetime.today().weekday() + 1) % 7
         ]
         found_food = self.find_food(day_of_week=day_of_week)
         return_string += self.foods_string(found_food)
