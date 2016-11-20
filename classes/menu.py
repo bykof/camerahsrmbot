@@ -21,6 +21,8 @@ class Menu(object):
         2: u'Mittwoch',
         3: u'Donnerstag',
         4: u'Freitag',
+        5: u'Samstag',
+        6: u'Sonntag',
     }
 
 
